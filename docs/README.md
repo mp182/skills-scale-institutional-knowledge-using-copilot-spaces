@@ -31,13 +31,27 @@ Key practices include:
 | [Risks & Communication](octoacme-risks-and-communication.md) | Risk register format, risk lifecycle, stakeholder communication templates, and escalation paths |
 | [Release & Deployment](octoacme-release-and-deployment.md) | Release types, pre-release requirements, deployment checklist, and rollback playbook |
 | [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) | How to run retrospectives, track action items, and build a continuous improvement culture |
-| [Roles & Personas](octoacme-roles-and-personas.md) | Responsibilities, goals, and communication patterns for Developers, Product Managers, and Project Managers |
+| [Roles & Personas](octoacme-roles-and-personas.md) | Responsibilities, goals, and communication patterns for all project roles, including the RACI matrix |
+
+---
+
+## Templates & Checklists
+
+Reusable templates and checklists are stored in the [`templates/`](templates/) folder.
+
+| Template | Description |
+|---|---|
+| [Requirements Checklist](templates/requirements-checklist.md) | Validate requirements completeness and handoff readiness |
+| [QA / Test Plan Template](templates/qa-test-plan-template.md) | Document the test strategy, scope, test cases, and sign-off criteria |
+| [Release Readiness Checklist](templates/release-readiness-checklist.md) | Confirm all gates are met before deploying to production |
+| [Stakeholder Review Checklist](templates/stakeholder-review-checklist.md) | Prepare and document structured phase-gate reviews |
+| [Handoff Checklist](templates/handoff-checklist.md) | Ensure clean, accountable handoffs between roles and phases |
 
 ---
 
 ## How to Use These Docs
 
-1. **New to the team?** Start with the [Project Management Overview](octoacme-project-management-overview.md) for a quick orientation, then review [Roles & Personas](octoacme-roles-and-personas.md) to understand your responsibilities.
+1. **New to the team?** Start with the [Project Management Overview](octoacme-project-management-overview.md) for a quick orientation, then review [Roles & Personas](octoacme-roles-and-personas.md) to understand your responsibilities and how your role fits into the RACI matrix.
 2. **Starting a new project?** Follow the [Project Initiation](octoacme-project-initiation.md) guide to validate the idea and get stakeholder alignment before moving into planning.
 3. **In delivery?** Use [Execution & Tracking](octoacme-execution-and-tracking.md) for day-to-day guidance and [Risks & Communication](octoacme-risks-and-communication.md) for managing risk and keeping stakeholders informed.
 4. **Preparing a release?** Follow the [Release & Deployment](octoacme-release-and-deployment.md) checklist and ensure a rollback plan is documented.
